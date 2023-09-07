@@ -1,0 +1,138 @@
+2023-09-05 17:06:28.705 | INFO     | __main__:main:374 - Namespace(batch_size=2, caption_loss_weight=1.0, checkpoint_dir='checkpoints', contrastive_loss_weight=1.0, dataset='Shanghai_captions', dim=512, dim_head=64, epoch_num=6, heads=8, img_dim=1024, img_encoder='vit', log_every_n_steps=100, logging_dir='logs', lr=0.0003, multimodal_depth=6, num_tokens=20000, pretrained_model='/root/laion-mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k/open_clip_pytorch_model.bin', seed=15, test_dataset_ratio=0.1, train_dataset_ratio=0.8, unimodal_depth=6, val_dataset_ratio=0.1, weight_decay=0.01)
+2023-09-05 17:06:39.065 | INFO     | __main__:main:384 - model parameters: 638450177
+2023-09-05 17:06:39.166 | INFO     | __main__:main:390 - train dataset size: 28
+2023-09-05 17:06:39.166 | INFO     | __main__:main:391 - val dataset size: 4
+2023-09-05 17:06:39.167 | INFO     | __main__:main:392 - test dataset size: 4
+2023-09-05 17:06:39.172 | INFO     | __main__:main:415 - Start epoch 0
+2023-09-05 17:06:39.541 | INFO     | __main__:train_one_epoch:180 - Train Epoch: 0 [ 0/28 (7%)] Data (t): 0.001 Batch (t): 0.360, 5.55599/s, Logit Scale: 100.000 Contrastive_loss: 0.72600 (0.72600) Caption_loss: 2.8276 (2.8276) Loss: 3.5536 (3.5536)
+2023-09-05 17:06:39.542 | INFO     | __main__:train_one_epoch:200 - {'train/data_time': 0.0010094642639160156, 'step': 0}
+2023-09-05 17:06:39.542 | INFO     | __main__:train_one_epoch:200 - {'train/batch_time': 0.3599717617034912, 'step': 0}
+2023-09-05 17:06:39.542 | INFO     | __main__:train_one_epoch:200 - {'train/samples_per_second': 5.555991365921087, 'step': 0}
+2023-09-05 17:06:39.542 | INFO     | __main__:train_one_epoch:200 - {'train/scale': 100.0, 'step': 0}
+2023-09-05 17:06:39.542 | INFO     | __main__:train_one_epoch:200 - {'train/contrastive_loss': 0.7260010242462158, 'step': 0}
+2023-09-05 17:06:39.542 | INFO     | __main__:train_one_epoch:200 - {'train/caption_loss': 2.827638864517212, 'step': 0}
+2023-09-05 17:06:39.543 | INFO     | __main__:train_one_epoch:200 - {'train/loss': 3.5536398887634277, 'step': 0}
+2023-09-05 17:06:42.773 | INFO     | __main__:evaluate:253 - Eval Epoch: 1 [2 / 4]	Clip Loss: 0.767868	
+2023-09-05 17:06:42.774 | INFO     | __main__:evaluate:259 - Generative Loss: 13.774304	
+2023-09-05 17:06:42.851 | INFO     | __main__:evaluate:275 - Eval Epoch: 1 image_to_text_mean_rank: 2.5000	image_to_text_median_rank: 2.0000	image_to_text_R@1: 0.2500	image_to_text_R@5: 1.0000	image_to_text_R@10: 1.0000	text_to_image_mean_rank: 2.5000	text_to_image_median_rank: 2.0000	text_to_image_R@1: 0.2500	text_to_image_R@5: 1.0000	text_to_image_R@10: 1.0000	clip_val_loss: 0.7314	epoch: 1.0000	num_samples: 4.0000	val_generative_loss: 6.8872
+2023-09-05 17:06:42.851 | INFO     | __main__:evaluate:281 - {'val/image_to_text_mean_rank': 2.5, 'epoch': 1}
+2023-09-05 17:06:42.851 | INFO     | __main__:evaluate:281 - {'val/image_to_text_median_rank': 2.0, 'epoch': 1}
+2023-09-05 17:06:42.852 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@1': 0.25, 'epoch': 1}
+2023-09-05 17:06:42.852 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@5': 1.0, 'epoch': 1}
+2023-09-05 17:06:42.852 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@10': 1.0, 'epoch': 1}
+2023-09-05 17:06:42.852 | INFO     | __main__:evaluate:281 - {'val/text_to_image_mean_rank': 2.5, 'epoch': 1}
+2023-09-05 17:06:42.852 | INFO     | __main__:evaluate:281 - {'val/text_to_image_median_rank': 2.0, 'epoch': 1}
+2023-09-05 17:06:42.852 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@1': 0.25, 'epoch': 1}
+2023-09-05 17:06:42.852 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@5': 1.0, 'epoch': 1}
+2023-09-05 17:06:42.852 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@10': 1.0, 'epoch': 1}
+2023-09-05 17:06:42.853 | INFO     | __main__:evaluate:281 - {'val/clip_val_loss': 0.7314105033874512, 'epoch': 1}
+2023-09-05 17:06:42.853 | INFO     | __main__:evaluate:281 - {'val/epoch': 1, 'epoch': 1}
+2023-09-05 17:06:42.853 | INFO     | __main__:evaluate:281 - {'val/num_samples': 4, 'epoch': 1}
+2023-09-05 17:06:42.853 | INFO     | __main__:evaluate:281 - {'val/val_generative_loss': 6.887152194976807, 'epoch': 1}
+2023-09-05 17:06:51.312 | INFO     | __main__:main:415 - Start epoch 1
+2023-09-05 17:06:54.781 | INFO     | __main__:evaluate:253 - Eval Epoch: 2 [2 / 4]	Clip Loss: 0.774567	
+2023-09-05 17:06:54.781 | INFO     | __main__:evaluate:259 - Generative Loss: 15.129199	
+2023-09-05 17:06:54.859 | INFO     | __main__:evaluate:275 - Eval Epoch: 2 image_to_text_mean_rank: 2.5000	image_to_text_median_rank: 2.0000	image_to_text_R@1: 0.2500	image_to_text_R@5: 1.0000	image_to_text_R@10: 1.0000	text_to_image_mean_rank: 2.5000	text_to_image_median_rank: 2.0000	text_to_image_R@1: 0.2500	text_to_image_R@5: 1.0000	text_to_image_R@10: 1.0000	clip_val_loss: 0.7340	epoch: 2.0000	num_samples: 4.0000	val_generative_loss: 7.5646
+2023-09-05 17:06:54.859 | INFO     | __main__:evaluate:281 - {'val/image_to_text_mean_rank': 2.5, 'epoch': 2}
+2023-09-05 17:06:54.859 | INFO     | __main__:evaluate:281 - {'val/image_to_text_median_rank': 2.0, 'epoch': 2}
+2023-09-05 17:06:54.859 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@1': 0.25, 'epoch': 2}
+2023-09-05 17:06:54.859 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@5': 1.0, 'epoch': 2}
+2023-09-05 17:06:54.859 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@10': 1.0, 'epoch': 2}
+2023-09-05 17:06:54.859 | INFO     | __main__:evaluate:281 - {'val/text_to_image_mean_rank': 2.5, 'epoch': 2}
+2023-09-05 17:06:54.860 | INFO     | __main__:evaluate:281 - {'val/text_to_image_median_rank': 2.0, 'epoch': 2}
+2023-09-05 17:06:54.860 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@1': 0.25, 'epoch': 2}
+2023-09-05 17:06:54.860 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@5': 1.0, 'epoch': 2}
+2023-09-05 17:06:54.860 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@10': 1.0, 'epoch': 2}
+2023-09-05 17:06:54.860 | INFO     | __main__:evaluate:281 - {'val/clip_val_loss': 0.7339960336685181, 'epoch': 2}
+2023-09-05 17:06:54.860 | INFO     | __main__:evaluate:281 - {'val/epoch': 2, 'epoch': 2}
+2023-09-05 17:06:54.860 | INFO     | __main__:evaluate:281 - {'val/num_samples': 4, 'epoch': 2}
+2023-09-05 17:06:54.860 | INFO     | __main__:evaluate:281 - {'val/val_generative_loss': 7.564599514007568, 'epoch': 2}
+2023-09-05 17:06:54.865 | INFO     | __main__:main:415 - Start epoch 2
+2023-09-05 17:06:58.325 | INFO     | __main__:evaluate:253 - Eval Epoch: 3 [2 / 4]	Clip Loss: 0.716156	
+2023-09-05 17:06:58.325 | INFO     | __main__:evaluate:259 - Generative Loss: 14.291321	
+2023-09-05 17:06:58.402 | INFO     | __main__:evaluate:275 - Eval Epoch: 3 image_to_text_mean_rank: 2.5000	image_to_text_median_rank: 2.0000	image_to_text_R@1: 0.2500	image_to_text_R@5: 1.0000	image_to_text_R@10: 1.0000	text_to_image_mean_rank: 2.5000	text_to_image_median_rank: 2.0000	text_to_image_R@1: 0.2500	text_to_image_R@5: 1.0000	text_to_image_R@10: 1.0000	clip_val_loss: 0.7154	epoch: 3.0000	num_samples: 4.0000	val_generative_loss: 7.1457
+2023-09-05 17:06:58.402 | INFO     | __main__:evaluate:281 - {'val/image_to_text_mean_rank': 2.5, 'epoch': 3}
+2023-09-05 17:06:58.402 | INFO     | __main__:evaluate:281 - {'val/image_to_text_median_rank': 2.0, 'epoch': 3}
+2023-09-05 17:06:58.402 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@1': 0.25, 'epoch': 3}
+2023-09-05 17:06:58.402 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@5': 1.0, 'epoch': 3}
+2023-09-05 17:06:58.403 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@10': 1.0, 'epoch': 3}
+2023-09-05 17:06:58.403 | INFO     | __main__:evaluate:281 - {'val/text_to_image_mean_rank': 2.5, 'epoch': 3}
+2023-09-05 17:06:58.403 | INFO     | __main__:evaluate:281 - {'val/text_to_image_median_rank': 2.0, 'epoch': 3}
+2023-09-05 17:06:58.403 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@1': 0.25, 'epoch': 3}
+2023-09-05 17:06:58.403 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@5': 1.0, 'epoch': 3}
+2023-09-05 17:06:58.403 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@10': 1.0, 'epoch': 3}
+2023-09-05 17:06:58.403 | INFO     | __main__:evaluate:281 - {'val/clip_val_loss': 0.7153784036636353, 'epoch': 3}
+2023-09-05 17:06:58.403 | INFO     | __main__:evaluate:281 - {'val/epoch': 3, 'epoch': 3}
+2023-09-05 17:06:58.404 | INFO     | __main__:evaluate:281 - {'val/num_samples': 4, 'epoch': 3}
+2023-09-05 17:06:58.404 | INFO     | __main__:evaluate:281 - {'val/val_generative_loss': 7.145660400390625, 'epoch': 3}
+2023-09-05 17:07:10.603 | INFO     | __main__:main:415 - Start epoch 3
+2023-09-05 17:07:14.464 | INFO     | __main__:evaluate:253 - Eval Epoch: 4 [2 / 4]	Clip Loss: 0.698072	
+2023-09-05 17:07:14.465 | INFO     | __main__:evaluate:259 - Generative Loss: 13.828477	
+2023-09-05 17:07:14.560 | INFO     | __main__:evaluate:275 - Eval Epoch: 4 image_to_text_mean_rank: 2.5000	image_to_text_median_rank: 2.0000	image_to_text_R@1: 0.2500	image_to_text_R@5: 1.0000	image_to_text_R@10: 1.0000	text_to_image_mean_rank: 2.5000	text_to_image_median_rank: 2.0000	text_to_image_R@1: 0.2500	text_to_image_R@5: 1.0000	text_to_image_R@10: 1.0000	clip_val_loss: 0.6990	epoch: 4.0000	num_samples: 4.0000	val_generative_loss: 6.9142
+2023-09-05 17:07:14.560 | INFO     | __main__:evaluate:281 - {'val/image_to_text_mean_rank': 2.5, 'epoch': 4}
+2023-09-05 17:07:14.561 | INFO     | __main__:evaluate:281 - {'val/image_to_text_median_rank': 2.0, 'epoch': 4}
+2023-09-05 17:07:14.561 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@1': 0.25, 'epoch': 4}
+2023-09-05 17:07:14.561 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@5': 1.0, 'epoch': 4}
+2023-09-05 17:07:14.561 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@10': 1.0, 'epoch': 4}
+2023-09-05 17:07:14.561 | INFO     | __main__:evaluate:281 - {'val/text_to_image_mean_rank': 2.5, 'epoch': 4}
+2023-09-05 17:07:14.561 | INFO     | __main__:evaluate:281 - {'val/text_to_image_median_rank': 2.0, 'epoch': 4}
+2023-09-05 17:07:14.562 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@1': 0.25, 'epoch': 4}
+2023-09-05 17:07:14.562 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@5': 1.0, 'epoch': 4}
+2023-09-05 17:07:14.562 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@10': 1.0, 'epoch': 4}
+2023-09-05 17:07:14.562 | INFO     | __main__:evaluate:281 - {'val/clip_val_loss': 0.6990213394165039, 'epoch': 4}
+2023-09-05 17:07:14.562 | INFO     | __main__:evaluate:281 - {'val/epoch': 4, 'epoch': 4}
+2023-09-05 17:07:14.563 | INFO     | __main__:evaluate:281 - {'val/num_samples': 4, 'epoch': 4}
+2023-09-05 17:07:14.563 | INFO     | __main__:evaluate:281 - {'val/val_generative_loss': 6.914238452911377, 'epoch': 4}
+2023-09-05 17:07:24.099 | INFO     | __main__:main:415 - Start epoch 4
+2023-09-05 17:07:27.570 | INFO     | __main__:evaluate:253 - Eval Epoch: 5 [2 / 4]	Clip Loss: 0.705288	
+2023-09-05 17:07:27.570 | INFO     | __main__:evaluate:259 - Generative Loss: 14.161239	
+2023-09-05 17:07:27.647 | INFO     | __main__:evaluate:275 - Eval Epoch: 5 image_to_text_mean_rank: 2.5000	image_to_text_median_rank: 2.0000	image_to_text_R@1: 0.2500	image_to_text_R@5: 1.0000	image_to_text_R@10: 1.0000	text_to_image_mean_rank: 2.5000	text_to_image_median_rank: 2.0000	text_to_image_R@1: 0.2500	text_to_image_R@5: 1.0000	text_to_image_R@10: 1.0000	clip_val_loss: 0.7231	epoch: 5.0000	num_samples: 4.0000	val_generative_loss: 7.0806
+2023-09-05 17:07:27.647 | INFO     | __main__:evaluate:281 - {'val/image_to_text_mean_rank': 2.5, 'epoch': 5}
+2023-09-05 17:07:27.647 | INFO     | __main__:evaluate:281 - {'val/image_to_text_median_rank': 2.0, 'epoch': 5}
+2023-09-05 17:07:27.647 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@1': 0.25, 'epoch': 5}
+2023-09-05 17:07:27.648 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@5': 1.0, 'epoch': 5}
+2023-09-05 17:07:27.648 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@10': 1.0, 'epoch': 5}
+2023-09-05 17:07:27.648 | INFO     | __main__:evaluate:281 - {'val/text_to_image_mean_rank': 2.5, 'epoch': 5}
+2023-09-05 17:07:27.648 | INFO     | __main__:evaluate:281 - {'val/text_to_image_median_rank': 2.0, 'epoch': 5}
+2023-09-05 17:07:27.648 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@1': 0.25, 'epoch': 5}
+2023-09-05 17:07:27.648 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@5': 1.0, 'epoch': 5}
+2023-09-05 17:07:27.648 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@10': 1.0, 'epoch': 5}
+2023-09-05 17:07:27.648 | INFO     | __main__:evaluate:281 - {'val/clip_val_loss': 0.7230559587478638, 'epoch': 5}
+2023-09-05 17:07:27.648 | INFO     | __main__:evaluate:281 - {'val/epoch': 5, 'epoch': 5}
+2023-09-05 17:07:27.649 | INFO     | __main__:evaluate:281 - {'val/num_samples': 4, 'epoch': 5}
+2023-09-05 17:07:27.649 | INFO     | __main__:evaluate:281 - {'val/val_generative_loss': 7.0806193351745605, 'epoch': 5}
+2023-09-05 17:07:27.653 | INFO     | __main__:main:415 - Start epoch 5
+2023-09-05 17:07:31.108 | INFO     | __main__:evaluate:253 - Eval Epoch: 6 [2 / 4]	Clip Loss: 0.693297	
+2023-09-05 17:07:31.109 | INFO     | __main__:evaluate:259 - Generative Loss: 15.581119	
+2023-09-05 17:07:31.186 | INFO     | __main__:evaluate:275 - Eval Epoch: 6 image_to_text_mean_rank: 2.5000	image_to_text_median_rank: 2.0000	image_to_text_R@1: 0.2500	image_to_text_R@5: 1.0000	image_to_text_R@10: 1.0000	text_to_image_mean_rank: 2.5000	text_to_image_median_rank: 2.0000	text_to_image_R@1: 0.2500	text_to_image_R@5: 1.0000	text_to_image_R@10: 1.0000	clip_val_loss: 0.6930	epoch: 6.0000	num_samples: 4.0000	val_generative_loss: 7.7906
+2023-09-05 17:07:31.187 | INFO     | __main__:evaluate:281 - {'val/image_to_text_mean_rank': 2.5, 'epoch': 6}
+2023-09-05 17:07:31.187 | INFO     | __main__:evaluate:281 - {'val/image_to_text_median_rank': 2.0, 'epoch': 6}
+2023-09-05 17:07:31.187 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@1': 0.25, 'epoch': 6}
+2023-09-05 17:07:31.187 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@5': 1.0, 'epoch': 6}
+2023-09-05 17:07:31.187 | INFO     | __main__:evaluate:281 - {'val/image_to_text_R@10': 1.0, 'epoch': 6}
+2023-09-05 17:07:31.187 | INFO     | __main__:evaluate:281 - {'val/text_to_image_mean_rank': 2.5, 'epoch': 6}
+2023-09-05 17:07:31.187 | INFO     | __main__:evaluate:281 - {'val/text_to_image_median_rank': 2.0, 'epoch': 6}
+2023-09-05 17:07:31.188 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@1': 0.25, 'epoch': 6}
+2023-09-05 17:07:31.188 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@5': 1.0, 'epoch': 6}
+2023-09-05 17:07:31.188 | INFO     | __main__:evaluate:281 - {'val/text_to_image_R@10': 1.0, 'epoch': 6}
+2023-09-05 17:07:31.188 | INFO     | __main__:evaluate:281 - {'val/clip_val_loss': 0.6930123567581177, 'epoch': 6}
+2023-09-05 17:07:31.188 | INFO     | __main__:evaluate:281 - {'val/epoch': 6, 'epoch': 6}
+2023-09-05 17:07:31.188 | INFO     | __main__:evaluate:281 - {'val/num_samples': 4, 'epoch': 6}
+2023-09-05 17:07:31.188 | INFO     | __main__:evaluate:281 - {'val/val_generative_loss': 7.7905592918396, 'epoch': 6}
+2023-09-05 17:07:47.703 | INFO     | __main__:inference:332 - Test : [2 / 4]	Clip Loss: 0.724165	
+2023-09-05 17:07:47.704 | INFO     | __main__:inference:338 - Generative Loss: 17.682261	
+2023-09-05 17:07:47.789 | INFO     | __main__:inference:354 - Test: image_to_text_mean_rank: 2.5000	image_to_text_median_rank: 2.0000	image_to_text_R@1: 0.2500	image_to_text_R@5: 1.0000	image_to_text_R@10: 1.0000	text_to_image_mean_rank: 2.5000	text_to_image_median_rank: 2.0000	text_to_image_R@1: 0.2500	text_to_image_R@5: 1.0000	text_to_image_R@10: 1.0000	clip_test_loss: 0.7087	num_samples: 4.0000	test_generative_loss: 8.8411
+2023-09-05 17:07:47.789 | INFO     | __main__:inference:360 - {'test/image_to_text_mean_rank': 2.5}
+2023-09-05 17:07:47.789 | INFO     | __main__:inference:360 - {'test/image_to_text_median_rank': 2.0}
+2023-09-05 17:07:47.789 | INFO     | __main__:inference:360 - {'test/image_to_text_R@1': 0.25}
+2023-09-05 17:07:47.789 | INFO     | __main__:inference:360 - {'test/image_to_text_R@5': 1.0}
+2023-09-05 17:07:47.789 | INFO     | __main__:inference:360 - {'test/image_to_text_R@10': 1.0}
+2023-09-05 17:07:47.790 | INFO     | __main__:inference:360 - {'test/text_to_image_mean_rank': 2.5}
+2023-09-05 17:07:47.790 | INFO     | __main__:inference:360 - {'test/text_to_image_median_rank': 2.0}
+2023-09-05 17:07:47.790 | INFO     | __main__:inference:360 - {'test/text_to_image_R@1': 0.25}
+2023-09-05 17:07:47.790 | INFO     | __main__:inference:360 - {'test/text_to_image_R@5': 1.0}
+2023-09-05 17:07:47.790 | INFO     | __main__:inference:360 - {'test/text_to_image_R@10': 1.0}
+2023-09-05 17:07:47.790 | INFO     | __main__:inference:360 - {'test/clip_test_loss': 0.7087059617042542}
+2023-09-05 17:07:47.790 | INFO     | __main__:inference:360 - {'test/num_samples': 4}
+2023-09-05 17:07:47.790 | INFO     | __main__:inference:360 - {'test/test_generative_loss': 8.841130256652832}
+2023-09-05 17:07:47.791 | INFO     | __main__:main:444 - test metric: {'image_to_text_mean_rank': 2.5, 'image_to_text_median_rank': 2.0, 'image_to_text_R@1': 0.25, 'image_to_text_R@5': 1.0, 'image_to_text_R@10': 1.0, 'text_to_image_mean_rank': 2.5, 'text_to_image_median_rank': 2.0, 'text_to_image_R@1': 0.25, 'text_to_image_R@5': 1.0, 'text_to_image_R@10': 1.0, 'clip_test_loss': 0.7087059617042542, 'num_samples': 4, 'test_generative_loss': 8.841130256652832}

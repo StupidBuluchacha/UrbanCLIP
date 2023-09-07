@@ -1,0 +1,192 @@
+2023-09-05 21:01:47.626 | INFO     | __main__:main:457 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 21:02:03.535 | INFO     | __main__:main:467 - model parameters: 638581762
+2023-09-05 21:02:03.540 | INFO     | __main__:main:471 - model parameters: 131585
+2023-09-05 21:03:41.818 | INFO     | __main__:main:458 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 21:03:52.734 | INFO     | __main__:main:471 - model parameters: 638581762
+2023-09-05 21:03:52.737 | INFO     | __main__:main:472 - model trainable parameters: 131585
+2023-09-05 21:55:25.576 | INFO     | __main__:main:481 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 21:55:36.521 | INFO     | __main__:main:494 - model parameters: 638581762
+2023-09-05 21:55:36.523 | INFO     | __main__:main:495 - model trainable parameters: 131585
+2023-09-05 21:57:04.731 | INFO     | __main__:main:481 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 21:57:15.973 | INFO     | __main__:main:494 - model parameters: 638581762
+2023-09-05 21:57:15.976 | INFO     | __main__:main:495 - model trainable parameters: 131585
+2023-09-05 21:57:43.983 | INFO     | __main__:main:481 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 21:57:55.051 | INFO     | __main__:main:494 - model parameters: 638581762
+2023-09-05 21:57:55.054 | INFO     | __main__:main:495 - model trainable parameters: 131585
+2023-09-05 21:57:55.188 | INFO     | __main__:main:504 - train dataset size: 28
+2023-09-05 21:57:55.188 | INFO     | __main__:main:505 - val dataset size: 8
+2023-09-05 21:57:55.189 | INFO     | __main__:main:506 - test dataset size: 2
+2023-09-05 21:57:55.194 | INFO     | __main__:main:530 - Start epoch 0
+2023-09-05 22:28:37.125 | INFO     | __main__:main:372 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 22:28:48.358 | INFO     | __main__:main:385 - model parameters: 638581762
+2023-09-05 22:28:48.361 | INFO     | __main__:main:386 - model trainable parameters: 131585
+2023-09-05 22:28:48.484 | INFO     | __main__:main:395 - train dataset size: 28
+2023-09-05 22:28:48.484 | INFO     | __main__:main:396 - val dataset size: 8
+2023-09-05 22:28:48.484 | INFO     | __main__:main:397 - test dataset size: 2
+2023-09-05 22:28:48.489 | INFO     | __main__:main:421 - Start epoch 0
+2023-09-05 22:29:27.252 | INFO     | __main__:main:369 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 22:29:38.502 | INFO     | __main__:main:382 - model parameters: 638647298
+2023-09-05 22:29:38.505 | INFO     | __main__:main:383 - model trainable parameters: 197121
+2023-09-05 22:29:38.629 | INFO     | __main__:main:392 - train dataset size: 28
+2023-09-05 22:29:38.629 | INFO     | __main__:main:393 - val dataset size: 8
+2023-09-05 22:29:38.629 | INFO     | __main__:main:394 - test dataset size: 2
+2023-09-05 22:29:38.634 | INFO     | __main__:main:418 - Start epoch 0
+2023-09-05 22:31:24.085 | INFO     | __main__:main:371 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, img_embedding_dim=768, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 22:31:35.040 | INFO     | __main__:main:384 - model parameters: 638647298
+2023-09-05 22:31:35.042 | INFO     | __main__:main:385 - model trainable parameters: 197121
+2023-09-05 22:31:35.168 | INFO     | __main__:main:394 - train dataset size: 28
+2023-09-05 22:31:35.169 | INFO     | __main__:main:395 - val dataset size: 8
+2023-09-05 22:31:35.169 | INFO     | __main__:main:396 - test dataset size: 2
+2023-09-05 22:31:35.174 | INFO     | __main__:main:420 - Start epoch 0
+2023-09-05 22:32:11.708 | INFO     | __main__:main:375 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, img_embedding_dim=768, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 22:32:22.688 | INFO     | __main__:main:388 - model parameters: 638647298
+2023-09-05 22:32:22.690 | INFO     | __main__:main:389 - model trainable parameters: 197121
+2023-09-05 22:32:22.819 | INFO     | __main__:main:398 - train dataset size: 28
+2023-09-05 22:32:22.819 | INFO     | __main__:main:399 - val dataset size: 8
+2023-09-05 22:32:22.819 | INFO     | __main__:main:400 - test dataset size: 2
+2023-09-05 22:32:22.824 | INFO     | __main__:main:424 - Start epoch 0
+2023-09-05 22:32:22.898 | INFO     | __main__:train_one_epoch:266 - Train Epoch: 0 [ 0/28 (7%)] Data (t): 0.001 Batch (t): 0.069, 28.8974/s, Metrics: Mse: 0.91379 (0.91379) R2: 0.0000 (0.0000) Rmse: 0.95592 (0.95592) Mae: 0.95592 (0.95592) Mape: 1.0268 (1.0268)
+2023-09-05 22:32:22.898 | INFO     | __main__:train_one_epoch:285 - {'train/data_time': 0.0013427734375, 'step': 0}
+2023-09-05 22:32:22.898 | INFO     | __main__:train_one_epoch:285 - {'train/batch_time': 0.06921029090881348, 'step': 0}
+2023-09-05 22:32:22.898 | INFO     | __main__:train_one_epoch:285 - {'train/samples_per_second': 28.897436692399644, 'step': 0}
+2023-09-05 22:32:22.899 | INFO     | __main__:train_one_epoch:285 - {'train/mse': 0.9137901067733765, 'step': 0}
+2023-09-05 22:32:22.899 | INFO     | __main__:train_one_epoch:285 - {'train/r2': 0.0, 'step': 0}
+2023-09-05 22:32:22.899 | INFO     | __main__:train_one_epoch:285 - {'train/rmse': 0.9559237, 'step': 0}
+2023-09-05 22:32:22.899 | INFO     | __main__:train_one_epoch:285 - {'train/mae': 0.9559217, 'step': 0}
+2023-09-05 22:32:22.899 | INFO     | __main__:train_one_epoch:285 - {'train/mape': 1.0268246, 'step': 0}
+2023-09-05 22:33:09.044 | INFO     | __main__:main:375 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, img_embedding_dim=768, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 22:33:19.974 | INFO     | __main__:main:388 - model parameters: 638647298
+2023-09-05 22:33:19.976 | INFO     | __main__:main:389 - model trainable parameters: 197121
+2023-09-05 22:33:20.097 | INFO     | __main__:main:398 - train dataset size: 28
+2023-09-05 22:33:20.097 | INFO     | __main__:main:399 - val dataset size: 8
+2023-09-05 22:33:20.097 | INFO     | __main__:main:400 - test dataset size: 2
+2023-09-05 22:33:20.102 | INFO     | __main__:main:424 - Start epoch 0
+2023-09-05 22:33:20.171 | INFO     | __main__:train_one_epoch:266 - Train Epoch: 0 [ 0/28 (7%)] Data (t): 0.001 Batch (t): 0.064, 31.2347/s, Metrics: Mse: 0.91379 (0.91379) R2: 0.0000 (0.0000) Rmse: 0.95592 (0.95592) Mae: 0.95592 (0.95592) Mape: 1.0268 (1.0268)
+2023-09-05 22:33:20.171 | INFO     | __main__:train_one_epoch:285 - {'train/data_time': 0.0012226104736328125, 'step': 0}
+2023-09-05 22:33:20.171 | INFO     | __main__:train_one_epoch:285 - {'train/batch_time': 0.06403136253356934, 'step': 0}
+2023-09-05 22:33:20.171 | INFO     | __main__:train_one_epoch:285 - {'train/samples_per_second': 31.23469376356738, 'step': 0}
+2023-09-05 22:33:20.171 | INFO     | __main__:train_one_epoch:285 - {'train/mse': 0.9137901067733765, 'step': 0}
+2023-09-05 22:33:20.171 | INFO     | __main__:train_one_epoch:285 - {'train/r2': 0.0, 'step': 0}
+2023-09-05 22:33:20.172 | INFO     | __main__:train_one_epoch:285 - {'train/rmse': 0.9559237, 'step': 0}
+2023-09-05 22:33:20.172 | INFO     | __main__:train_one_epoch:285 - {'train/mae': 0.9559217, 'step': 0}
+2023-09-05 22:33:20.172 | INFO     | __main__:train_one_epoch:285 - {'train/mape': 1.0268246, 'step': 0}
+2023-09-05 22:33:20.472 | INFO     | __main__:evaluate:317 - Eval Epoch: 1 mse: 1.0741	r2: -0.1399	rmse: 1.0364	mae: 1.0307	mape: 1.0074
+2023-09-05 22:33:23.281 | INFO     | __main__:main:424 - Start epoch 1
+2023-09-05 22:33:23.605 | INFO     | __main__:evaluate:317 - Eval Epoch: 2 mse: 1.0483	r2: -0.1125	rmse: 1.0239	mae: 1.0213	mape: 1.0006
+2023-09-05 22:33:26.691 | INFO     | __main__:main:424 - Start epoch 2
+2023-09-05 22:33:27.020 | INFO     | __main__:evaluate:317 - Eval Epoch: 3 mse: 1.0623	r2: -0.1273	rmse: 1.0307	mae: 1.0265	mape: 1.0043
+2023-09-05 22:33:27.024 | INFO     | __main__:main:424 - Start epoch 3
+2023-09-05 22:33:27.345 | INFO     | __main__:evaluate:317 - Eval Epoch: 4 mse: 1.0520	r2: -0.1164	rmse: 1.0257	mae: 1.0227	mape: 1.0016
+2023-09-05 22:33:27.350 | INFO     | __main__:main:424 - Start epoch 4
+2023-09-05 22:33:27.670 | INFO     | __main__:evaluate:317 - Eval Epoch: 5 mse: 1.0455	r2: -0.1095	rmse: 1.0225	mae: 1.0202	mape: 0.9998
+2023-09-05 22:33:30.690 | INFO     | __main__:main:424 - Start epoch 5
+2023-09-05 22:33:31.064 | INFO     | __main__:evaluate:317 - Eval Epoch: 6 mse: 1.0455	r2: -0.1095	rmse: 1.0225	mae: 1.0202	mape: 0.9998
+2023-09-05 22:34:41.152 | INFO     | __main__:main:378 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, img_embedding_dim=768, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 22:34:52.796 | INFO     | __main__:main:391 - model parameters: 638647298
+2023-09-05 22:34:52.799 | INFO     | __main__:main:392 - model trainable parameters: 197121
+2023-09-05 22:34:52.935 | INFO     | __main__:main:401 - train dataset size: 28
+2023-09-05 22:34:52.935 | INFO     | __main__:main:402 - val dataset size: 8
+2023-09-05 22:34:52.935 | INFO     | __main__:main:403 - test dataset size: 2
+2023-09-05 22:34:52.940 | INFO     | __main__:main:427 - Start epoch 0
+2023-09-05 22:34:53.006 | INFO     | __main__:train_one_epoch:269 - Train Epoch: 0 [ 0/28 (7%)] Data (t): 0.001 Batch (t): 0.059, 33.7442/s, Metrics: Mse: 0.91379 (0.91379) R2: 0.0000 (0.0000) Rmse: 0.95592 (0.95592) Mae: 0.95592 (0.95592) Mape: 1.0268 (1.0268)
+2023-09-05 22:34:53.006 | INFO     | __main__:train_one_epoch:288 - {'train/data_time': 0.001035928726196289, 'step': 0}
+2023-09-05 22:34:53.006 | INFO     | __main__:train_one_epoch:288 - {'train/batch_time': 0.05926942825317383, 'step': 0}
+2023-09-05 22:34:53.006 | INFO     | __main__:train_one_epoch:288 - {'train/samples_per_second': 33.74420943385601, 'step': 0}
+2023-09-05 22:34:53.006 | INFO     | __main__:train_one_epoch:288 - {'train/mse': 0.9137901067733765, 'step': 0}
+2023-09-05 22:34:53.007 | INFO     | __main__:train_one_epoch:288 - {'train/r2': 0.0, 'step': 0}
+2023-09-05 22:34:53.007 | INFO     | __main__:train_one_epoch:288 - {'train/rmse': 0.9559237, 'step': 0}
+2023-09-05 22:34:53.007 | INFO     | __main__:train_one_epoch:288 - {'train/mae': 0.9559217, 'step': 0}
+2023-09-05 22:34:53.007 | INFO     | __main__:train_one_epoch:288 - {'train/mape': 1.0268246, 'step': 0}
+2023-09-05 22:34:53.310 | INFO     | __main__:evaluate:320 - Eval Epoch: 1 mse: 1.0741	r2: -0.1399	rmse: 1.0364	mae: 1.0307	mape: 1.0074
+2023-09-05 22:34:56.383 | INFO     | __main__:main:427 - Start epoch 1
+2023-09-05 22:34:56.732 | INFO     | __main__:evaluate:320 - Eval Epoch: 2 mse: 1.0483	r2: -0.1125	rmse: 1.0239	mae: 1.0213	mape: 1.0006
+2023-09-05 22:34:59.845 | INFO     | __main__:main:427 - Start epoch 2
+2023-09-05 22:35:00.173 | INFO     | __main__:evaluate:320 - Eval Epoch: 3 mse: 1.0623	r2: -0.1273	rmse: 1.0307	mae: 1.0265	mape: 1.0043
+2023-09-05 22:35:00.178 | INFO     | __main__:main:427 - Start epoch 3
+2023-09-05 22:35:00.521 | INFO     | __main__:evaluate:320 - Eval Epoch: 4 mse: 1.0520	r2: -0.1164	rmse: 1.0257	mae: 1.0227	mape: 1.0016
+2023-09-05 22:35:00.526 | INFO     | __main__:main:427 - Start epoch 4
+2023-09-05 22:35:00.875 | INFO     | __main__:evaluate:320 - Eval Epoch: 5 mse: 1.0455	r2: -0.1095	rmse: 1.0225	mae: 1.0202	mape: 0.9998
+2023-09-05 22:35:03.941 | INFO     | __main__:main:427 - Start epoch 5
+2023-09-05 22:35:04.278 | INFO     | __main__:evaluate:320 - Eval Epoch: 6 mse: 1.0455	r2: -0.1095	rmse: 1.0225	mae: 1.0202	mape: 0.9998
+2023-09-05 22:35:19.572 | INFO     | __main__:main:378 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, img_embedding_dim=768, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 22:35:35.477 | INFO     | __main__:main:378 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, img_embedding_dim=768, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 22:35:47.245 | INFO     | __main__:main:391 - model parameters: 638647298
+2023-09-05 22:35:47.248 | INFO     | __main__:main:392 - model trainable parameters: 197121
+2023-09-05 22:35:47.364 | INFO     | __main__:main:401 - train dataset size: 28
+2023-09-05 22:35:47.364 | INFO     | __main__:main:402 - val dataset size: 8
+2023-09-05 22:35:47.364 | INFO     | __main__:main:403 - test dataset size: 2
+2023-09-05 22:35:47.369 | INFO     | __main__:main:427 - Start epoch 0
+2023-09-05 22:35:47.438 | INFO     | __main__:train_one_epoch:269 - Train Epoch: 0 [ 0/28 (7%)] Data (t): 0.001 Batch (t): 0.063, 31.5149/s, Metrics: Mse: 0.91379 (0.91379) R2: 0.0000 (0.0000) Rmse: 0.95592 (0.95592) Mae: 0.95592 (0.95592) Mape: 1.0268 (1.0268)
+2023-09-05 22:35:47.438 | INFO     | __main__:train_one_epoch:288 - {'train/data_time': 0.0011713504791259766, 'step': 0}
+2023-09-05 22:35:47.438 | INFO     | __main__:train_one_epoch:288 - {'train/batch_time': 0.0634620189666748, 'step': 0}
+2023-09-05 22:35:47.438 | INFO     | __main__:train_one_epoch:288 - {'train/samples_per_second': 31.514912896960315, 'step': 0}
+2023-09-05 22:35:47.438 | INFO     | __main__:train_one_epoch:288 - {'train/mse': 0.9137901067733765, 'step': 0}
+2023-09-05 22:35:47.438 | INFO     | __main__:train_one_epoch:288 - {'train/r2': 0.0, 'step': 0}
+2023-09-05 22:35:47.438 | INFO     | __main__:train_one_epoch:288 - {'train/rmse': 0.9559237, 'step': 0}
+2023-09-05 22:35:47.438 | INFO     | __main__:train_one_epoch:288 - {'train/mae': 0.9559217, 'step': 0}
+2023-09-05 22:35:47.438 | INFO     | __main__:train_one_epoch:288 - {'train/mape': 1.0268246, 'step': 0}
+2023-09-05 22:35:47.748 | INFO     | __main__:evaluate:320 - Eval Epoch: 1 mse: 1.0738	r2: -0.1395	rmse: 1.0362	mae: 1.0306	mape: 1.0073
+2023-09-05 22:35:50.712 | INFO     | __main__:main:427 - Start epoch 1
+2023-09-05 22:35:51.042 | INFO     | __main__:evaluate:320 - Eval Epoch: 2 mse: 1.0479	r2: -0.1120	rmse: 1.0237	mae: 1.0211	mape: 1.0005
+2023-09-05 22:35:54.105 | INFO     | __main__:main:427 - Start epoch 2
+2023-09-05 22:35:54.437 | INFO     | __main__:evaluate:320 - Eval Epoch: 3 mse: 1.0616	r2: -0.1266	rmse: 1.0304	mae: 1.0263	mape: 1.0042
+2023-09-05 22:35:54.441 | INFO     | __main__:main:427 - Start epoch 3
+2023-09-05 22:35:54.769 | INFO     | __main__:evaluate:320 - Eval Epoch: 4 mse: 1.0513	r2: -0.1156	rmse: 1.0253	mae: 1.0224	mape: 1.0014
+2023-09-05 22:35:54.773 | INFO     | __main__:main:427 - Start epoch 4
+2023-09-05 22:35:55.095 | INFO     | __main__:evaluate:320 - Eval Epoch: 5 mse: 1.0446	r2: -0.1085	rmse: 1.0220	mae: 1.0198	mape: 0.9995
+2023-09-05 22:35:58.060 | INFO     | __main__:main:427 - Start epoch 5
+2023-09-05 22:35:58.392 | INFO     | __main__:evaluate:320 - Eval Epoch: 6 mse: 1.0440	r2: -0.1079	rmse: 1.0218	mae: 1.0196	mape: 0.9993
+2023-09-05 22:36:40.863 | INFO     | __main__:main:377 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, img_embedding_dim=768, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 22:36:52.108 | INFO     | __main__:main:390 - model parameters: 638647298
+2023-09-05 22:36:52.111 | INFO     | __main__:main:391 - model trainable parameters: 197121
+2023-09-05 22:36:52.233 | INFO     | __main__:main:400 - train dataset size: 28
+2023-09-05 22:36:52.233 | INFO     | __main__:main:401 - val dataset size: 8
+2023-09-05 22:36:52.234 | INFO     | __main__:main:402 - test dataset size: 2
+2023-09-05 22:36:52.239 | INFO     | __main__:main:426 - Start epoch 0
+2023-09-05 22:36:52.310 | INFO     | __main__:train_one_epoch:269 - Train Epoch: 0 [ 0/28 (7%)] Data (t): 0.001 Batch (t): 0.065, 30.9783/s, Metrics: Mse: 0.91379 (0.91379) R2: 0.0000 (0.0000) Rmse: 0.95592 (0.95592) Mae: 0.95592 (0.95592) Mape: 1.0268 (1.0268)
+2023-09-05 22:36:52.310 | INFO     | __main__:train_one_epoch:288 - {'train/data_time': 0.0013308525085449219, 'step': 0}
+2023-09-05 22:36:52.310 | INFO     | __main__:train_one_epoch:288 - {'train/batch_time': 0.06456136703491211, 'step': 0}
+2023-09-05 22:36:52.310 | INFO     | __main__:train_one_epoch:288 - {'train/samples_per_second': 30.978278370693157, 'step': 0}
+2023-09-05 22:36:52.310 | INFO     | __main__:train_one_epoch:288 - {'train/mse': 0.9137901067733765, 'step': 0}
+2023-09-05 22:36:52.310 | INFO     | __main__:train_one_epoch:288 - {'train/r2': 0.0, 'step': 0}
+2023-09-05 22:36:52.310 | INFO     | __main__:train_one_epoch:288 - {'train/rmse': 0.9559237, 'step': 0}
+2023-09-05 22:36:52.310 | INFO     | __main__:train_one_epoch:288 - {'train/mae': 0.9559217, 'step': 0}
+2023-09-05 22:36:52.311 | INFO     | __main__:train_one_epoch:288 - {'train/mape': 1.0268246, 'step': 0}
+2023-09-05 22:36:52.613 | INFO     | __main__:evaluate:320 - Eval Epoch: 1 mse: 1.0738	r2: -0.1395	rmse: 1.0362	mae: 1.0306	mape: 1.0073
+2023-09-05 22:36:55.664 | INFO     | __main__:main:426 - Start epoch 1
+2023-09-05 22:36:56.003 | INFO     | __main__:evaluate:320 - Eval Epoch: 2 mse: 1.0479	r2: -0.1120	rmse: 1.0237	mae: 1.0211	mape: 1.0005
+2023-09-05 22:36:59.162 | INFO     | __main__:main:426 - Start epoch 2
+2023-09-05 22:36:59.487 | INFO     | __main__:evaluate:320 - Eval Epoch: 3 mse: 1.0616	r2: -0.1266	rmse: 1.0304	mae: 1.0263	mape: 1.0042
+2023-09-05 22:36:59.491 | INFO     | __main__:main:426 - Start epoch 3
+2023-09-05 22:36:59.812 | INFO     | __main__:evaluate:320 - Eval Epoch: 4 mse: 1.0513	r2: -0.1156	rmse: 1.0253	mae: 1.0224	mape: 1.0014
+2023-09-05 22:36:59.817 | INFO     | __main__:main:426 - Start epoch 4
+2023-09-05 22:37:00.143 | INFO     | __main__:evaluate:320 - Eval Epoch: 5 mse: 1.0446	r2: -0.1085	rmse: 1.0220	mae: 1.0198	mape: 0.9995
+2023-09-05 22:37:03.167 | INFO     | __main__:main:426 - Start epoch 5
+2023-09-05 22:37:03.492 | INFO     | __main__:evaluate:320 - Eval Epoch: 6 mse: 1.0440	r2: -0.1079	rmse: 1.0218	mae: 1.0196	mape: 0.9993
+2023-09-05 23:11:27.620 | INFO     | __main__:main:377 - Namespace(activation='relu', batch_size=2, checkpoint_dir='checkpoints/downtask1', dataset='Beijing', drop_out=0.01, epoch_num=6, img_embedding_dim=768, indicator='CO2', linear_probe=True, log_every_n_steps=100, logging_dir='logs/downtask1', lr=0.0003, pretrained_model='./checkpoints/best_model.bin', project_dim=256, seed=132, test_file='./data/downstream_task/downstream.csv', train_dataset_ratio=0.8, wd=0.01)
+2023-09-05 23:11:38.658 | INFO     | __main__:main:390 - model parameters: 638647298
+2023-09-05 23:11:38.661 | INFO     | __main__:main:391 - model trainable parameters: 197121
+2023-09-05 23:11:38.795 | INFO     | __main__:main:400 - train dataset size: 28
+2023-09-05 23:11:38.796 | INFO     | __main__:main:401 - val dataset size: 8
+2023-09-05 23:11:38.796 | INFO     | __main__:main:402 - test dataset size: 2
+2023-09-05 23:11:38.802 | INFO     | __main__:main:426 - Start epoch 0
+2023-09-05 23:11:38.879 | INFO     | __main__:train_one_epoch:269 - Train Epoch: 0 [ 0/28 (7%)] Data (t): 0.002 Batch (t): 0.070, 28.4256/s, Metrics: Mse: 0.91379 (0.91379) R2: 0.0000 (0.0000) Rmse: 0.95592 (0.95592) Mae: 0.95592 (0.95592) Mape: 1.0268 (1.0268)
+2023-09-05 23:11:38.879 | INFO     | __main__:train_one_epoch:288 - {'train/data_time': 0.0019359588623046875, 'step': 0}
+2023-09-05 23:11:38.879 | INFO     | __main__:train_one_epoch:288 - {'train/batch_time': 0.0703589916229248, 'step': 0}
+2023-09-05 23:11:38.879 | INFO     | __main__:train_one_epoch:288 - {'train/samples_per_second': 28.42564900188745, 'step': 0}
+2023-09-05 23:11:38.879 | INFO     | __main__:train_one_epoch:288 - {'train/mse': 0.9137901067733765, 'step': 0}
+2023-09-05 23:11:38.879 | INFO     | __main__:train_one_epoch:288 - {'train/r2': 0.0, 'step': 0}
+2023-09-05 23:11:38.880 | INFO     | __main__:train_one_epoch:288 - {'train/rmse': 0.9559237, 'step': 0}
+2023-09-05 23:11:38.880 | INFO     | __main__:train_one_epoch:288 - {'train/mae': 0.9559217, 'step': 0}
+2023-09-05 23:11:38.880 | INFO     | __main__:train_one_epoch:288 - {'train/mape': 1.0268246, 'step': 0}
+2023-09-05 23:11:39.198 | INFO     | __main__:evaluate:320 - Eval Epoch: 1 mse: 1.0738	r2: -0.1395	rmse: 1.0362	mae: 1.0306	mape: 1.0073
+2023-09-05 23:11:42.345 | INFO     | __main__:main:426 - Start epoch 1
+2023-09-05 23:11:42.689 | INFO     | __main__:evaluate:320 - Eval Epoch: 2 mse: 1.0479	r2: -0.1120	rmse: 1.0237	mae: 1.0211	mape: 1.0005
+2023-09-05 23:11:45.833 | INFO     | __main__:main:426 - Start epoch 2
+2023-09-05 23:11:46.169 | INFO     | __main__:evaluate:320 - Eval Epoch: 3 mse: 1.0616	r2: -0.1266	rmse: 1.0304	mae: 1.0263	mape: 1.0042
+2023-09-05 23:11:46.174 | INFO     | __main__:main:426 - Start epoch 3
+2023-09-05 23:11:46.518 | INFO     | __main__:evaluate:320 - Eval Epoch: 4 mse: 1.0513	r2: -0.1156	rmse: 1.0253	mae: 1.0224	mape: 1.0014
+2023-09-05 23:11:46.523 | INFO     | __main__:main:426 - Start epoch 4
+2023-09-05 23:11:46.859 | INFO     | __main__:evaluate:320 - Eval Epoch: 5 mse: 1.0446	r2: -0.1085	rmse: 1.0220	mae: 1.0198	mape: 0.9995
+2023-09-05 23:11:49.775 | INFO     | __main__:main:426 - Start epoch 5
+2023-09-05 23:11:50.121 | INFO     | __main__:evaluate:320 - Eval Epoch: 6 mse: 1.0440	r2: -0.1079	rmse: 1.0218	mae: 1.0196	mape: 0.9993

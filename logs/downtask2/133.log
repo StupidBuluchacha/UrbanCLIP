@@ -1,0 +1,24 @@
+2023-09-05 23:03:58.492 | INFO     | __main__:main:99 - Namespace(batch_size=2, dataset='Beijing', logging_dir='logs/downtask2', pretrained_model='/root/laion-mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k/open_clip_pytorch_model.bin', seed=133)
+2023-09-05 23:04:12.392 | INFO     | __main__:main:111 - model parameters: 638450177
+2023-09-05 23:04:12.395 | INFO     | __main__:main:112 - model trainable parameters: 0
+2023-09-05 23:04:12.407 | INFO     | __main__:main:119 - inference dataset size: 2
+2023-09-05 23:04:41.359 | INFO     | __main__:main:100 - Namespace(batch_size=2, dataset='Beijing', logging_dir='logs/downtask2', pretrained_model='/root/laion-mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k/open_clip_pytorch_model.bin', seed=133)
+2023-09-05 23:04:52.392 | INFO     | __main__:main:112 - model parameters: 638450177
+2023-09-05 23:04:52.394 | INFO     | __main__:main:113 - model trainable parameters: 0
+2023-09-05 23:04:52.408 | INFO     | __main__:main:120 - inference dataset size: 2
+2023-09-05 23:09:33.905 | INFO     | __main__:main:119 - Namespace(batch_size=2, checkpoint_dir='checkpoints', dataset='Beijing', logging_dir='logs/downtask2', pretrained_model='/root/laion-mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k/open_clip_pytorch_model.bin', seed=133)
+2023-09-05 23:09:44.756 | INFO     | __main__:main:131 - model parameters: 638450177
+2023-09-05 23:09:44.759 | INFO     | __main__:main:132 - model trainable parameters: 0
+2023-09-05 23:09:44.772 | INFO     | __main__:main:139 - inference dataset size: 2
+2023-09-05 23:10:02.295 | INFO     | __main__:main:119 - Namespace(batch_size=2, checkpoint_dir='checkpoints', dataset='Beijing', logging_dir='logs/downtask2', pretrained_model='/root/laion-mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k/open_clip_pytorch_model.bin', seed=133)
+2023-09-05 23:10:13.170 | INFO     | __main__:main:131 - model parameters: 638450177
+2023-09-05 23:10:13.172 | INFO     | __main__:main:132 - model trainable parameters: 0
+2023-09-05 23:10:13.183 | INFO     | __main__:main:139 - inference dataset size: 2
+2023-09-05 23:10:18.222 | INFO     | __main__:main:119 - Namespace(batch_size=2, checkpoint_dir='checkpoints', dataset='Beijing', logging_dir='logs/downtask2', pretrained_model='/root/laion-mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k/open_clip_pytorch_model.bin', seed=133)
+2023-09-05 23:10:29.070 | INFO     | __main__:main:131 - model parameters: 638450177
+2023-09-05 23:10:29.073 | INFO     | __main__:main:132 - model trainable parameters: 0
+2023-09-05 23:10:29.083 | INFO     | __main__:main:139 - inference dataset size: 2
+2023-09-05 23:10:58.355 | INFO     | __main__:main:122 - Namespace(batch_size=2, checkpoint_dir='checkpoints/downtask2', dataset='Beijing', logging_dir='logs/downtask2', pretrained_model='/root/laion-mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k/open_clip_pytorch_model.bin', seed=133)
+2023-09-05 23:11:09.304 | INFO     | __main__:main:134 - model parameters: 638450177
+2023-09-05 23:11:09.306 | INFO     | __main__:main:135 - model trainable parameters: 0
+2023-09-05 23:11:09.317 | INFO     | __main__:main:142 - inference dataset size: 2
