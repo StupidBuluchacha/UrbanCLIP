@@ -1,2 +1,2 @@
 # UrbanCLIP
-Learning Text-Enhanced Urban Region Profiling with Contrastive Language-Image Pre-Training
+Learning Text-Enhanced Urban Region Profiling from the Web
