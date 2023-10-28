@@ -21,13 +21,6 @@ from utils import (
 from tqdm import tqdm
 from loguru import logger
 
-"""
-Fine-tuning CoCa on Beijing/Shanghai Captions dataset.
-
-Note:
-    Pre-training is very demanding in terms of data volume and not affordable for a typical lab
-"""
-
 
 def create_args():
     parser = argparse.ArgumentParser()
@@ -35,15 +28,15 @@ def create_args():
         "--dataset",
         type=str,
         default="Beijing",
-        choices=["Beijing", "Shanghai"],
+        choices=["Beijing", "Shanghai", "Guangzhou", "Shenzhen"],
         help="which dataset",
     )
     parser.add_argument("--batch_size", type=int, default=2, help="batch size")
     parser.add_argument(
         "--pretrained_model",
         type=str,
-        default="/root/"
-        + "laion-mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k/open_clip_pytorch_model.bin",
+        # default="checkpoints/best_model.bin",
+        default="/root/" + "laion-mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k/open_clip_pytorch_model.bin",
         help="pretrained model, mscoco_finetuned_laion2B-s13B-b90k",
     )
 
@@ -72,6 +65,12 @@ def create_datasets(args, transform):
         jpg_files = list(path.glob("*.jpg"))
     elif args.dataset == "Shanghai":
         path = Path("data/images/Shanghai")
+        jpg_files = list(path.glob("*.jpg"))
+    elif args.dataset == "Guangzhou":
+        path = Path("data/images/Guangzhou")
+        jpg_files = list(path.glob("*.jpg"))
+    elif args.dataset == "Shenzhen":
+        path = Path("data/images/Shenzhen")
         jpg_files = list(path.glob("*.jpg"))
     else:
         raise ValueError("dataset not found")
