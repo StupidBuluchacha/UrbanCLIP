@@ -22,7 +22,7 @@ from tqdm import tqdm
 from loguru import logger
 
 """
-Fine-tuning CoCa on Beijing/Shanghai Captions dataset.
+UrbanCLIP-based Architecture to train BJ/SH/GZ/SZ satellite-caption pair dataset
 
 Note:
     Pre-training is very demanding in terms of data volume and not affordable for a typical lab
@@ -35,17 +35,19 @@ def create_args():
         "--dataset",
         type=str,
         default="Beijing_captions",
-        choices=["Beijing_captions", "Shanghai_captions"],
+        choices=["Beijing_captions", "Shanghai_captions", "Guangzhou_captions", "Shenzhen_captions"],
         help="which dataset",
     )
     parser.add_argument(
         "--lr", type=float, default=0.0003, help="learning rate"
-    )  # 2e-5, 2e-4
-    parser.add_argument("--weight_decay", type=float, default=0.01, help="weight decay")
+    )  # very sensitive 
+    parser.add_argument(
+        "--weight_decay", type=float, default=0.01, help="weight decay")
     parser.add_argument(
         "--batch_size", type=int, default=2, help="batch size"
     )  # batch size
-    parser.add_argument("--epoch_num", type=int, default=6, help="epoch number")
+    parser.add_argument(
+        "--epoch_num", type=int, default=100, help="epoch number")
     parser.add_argument(
         "--log_every_n_steps", type=int, default=100, help="log every n steps"
     )
@@ -69,7 +71,8 @@ def create_args():
         help="weight on the contrastive loss \
                         between image and text CLS embeddings",
     )
-    parser.add_argument("--seed", type=int, default=132, help="random seed")
+    parser.add_argument(
+        "--seed", type=int, default=132, help="random seed")
     parser.add_argument(
         "--logging_dir", type=str, default="logs", help="logging directory"
     )
@@ -78,7 +81,8 @@ def create_args():
     )
     # CoCa hyper-parameters only for pre-training, if fine-tuning a pre-trained coca model,
     # these parameters are not used
-    parser.add_argument("--dim", type=int, default=512, help="model dimensions")
+    parser.add_argument(
+        "--dim", type=int, default=512, help="model dimensions")
     parser.add_argument(
         "--img_encoder",
         type=str,
@@ -139,6 +143,10 @@ def create_datasets(args, transform, tokenizer):
         data = json.load(open("data/captions/Beijing_captions.json", "r"))
     elif args.dataset == "Shanghai_captions":
         data = json.load(open("data/captions/Shanghai_captions.json", "r"))
+    elif args.dataset == "Guangzhou_captions":
+        data = json.load(open("data/captions/Guangzhou_captions.json", "r"))
+    elif args.dataset == "Shenzhen_captions":
+        data = json.load(open("data/captions/Shenzhen_captions.json", "r"))
     else:
         raise ValueError("dataset not found")
 
