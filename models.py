@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import open_clip
 from vit_pytorch.simple_vit_with_patch_dropout import SimpleViT
 from vit_pytorch.extractor import Extractor
-from coca_pytorch.coca_pytorch import CoCa
+from model_init import UrbanCLIP_init
 
 # there could be more options to initialize the parameters! The following checkpoint is one of them.
 model, _, transform = open_clip.create_model_and_transforms(
@@ -14,7 +14,7 @@ model, _, transform = open_clip.create_model_and_transforms(
     # pretrained="/root/autodl-tmp/laion-CoCa-ViT-L-14-laion2B-s13B-b90k/open_clip_pytorch_model.bin"
 )
 
-# more details of initialized model can be seen as follows:
+# more general details of initialized model can be seen as follows:
 vit = SimpleViT(
     image_size = 256,
     patch_size = 32,
@@ -27,7 +27,7 @@ vit = SimpleViT(
 )
 vit = Extractor(vit, return_embeddings_only = True, detach = False)
 
-urbanclip_init = CoCa(
+urbanclip_init = UrbanCLIP_init(
     dim = 512,                     # model dimension
     img_encoder = vit,             # vision transformer - image encoder, returning image embeddings as (batch, seq, dim)
     image_dim = 1024,              # image embedding dimension, if not the same as model dimensions
