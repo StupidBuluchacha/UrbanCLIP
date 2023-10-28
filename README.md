@@ -22,3 +22,11 @@ data/
 |   ├── Shenzhen
 
 ```
+
+## Data Example
+```markdown
+{
+      "caption": "The image depicts a large, open field with a train track running through the middle of it",
+      "image": "Beijing/16_12677_4730_s.jpg"
+}
+```
