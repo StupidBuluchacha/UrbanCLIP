@@ -38,13 +38,13 @@ def create_args():
         "--dataset",
         type=str,
         default="Beijing",
-        choices=["Beijing", "Shanghai"],
+        choices=["Beijing", "Shanghai", "Guangzhou", "Shenzhen"],
         help="which dataset",
     )
     parser.add_argument(
         "--test_file",
         type=str,
-        default="./data/downstream_task/downstream.csv",
+        default="./data/downstream_task/Beijing_test.csv",
         help="test file path, if None then only train and val",
     )
     parser.add_argument(
@@ -53,9 +53,9 @@ def create_args():
     parser.add_argument(
         "--indicator",
         type=str,
-        default="CO2",
-        choices=["CO2", "O3", "SO2"],
-        help="environmental indicator",
+        default="carbon",
+        choices=["carbon", "population", "gdp"],
+        help="indicator",
     )
     parser.add_argument("--lr", type=float, default=0.0003, help="learning rate")
     parser.add_argument("--wd", type=float, default=0.01, help="weight decay")
@@ -63,7 +63,7 @@ def create_args():
         "--drop_out", type=float, default=0.01, help="dropout in linear probe"
     )
     parser.add_argument("--batch_size", type=int, default=2, help="batch size")
-    parser.add_argument("--epoch_num", type=int, default=6, help="epoch number")
+    parser.add_argument("--epoch_num", type=int, default=100, help="epoch number")
     parser.add_argument(
         "--log_every_n_steps", type=int, default=100, help="log every n steps"
     )
@@ -133,9 +133,13 @@ class CoCaLinearProbe(nn.Module):
 def create_datasets(args, transform):
     """To create train, val, test datasets."""
     if args.dataset == "Beijing":
-        data = pd.read_csv("data/downstream_task/Beijing.csv")
+        data = pd.read_csv("data/downstream_task/Beijing_train.csv")
     elif args.dataset == "Shanghai":
-        data = pd.read_csv("data/downstream_task/Shanghai.csv")
+        data = pd.read_csv("data/downstream_task/Shanghai_train.csv")
+    elif args.dataset == "Shenzhen":
+        data = pd.read_csv("data/downstream_task/Shenzhen_train.csv")
+    elif args.dataset == "Guangzhou":
+        data = pd.read_csv("data/downstream_task/Guangzhou_train.csv")
     else:
         raise ValueError("dataset not found")
 
