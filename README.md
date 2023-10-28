@@ -1,7 +1,7 @@
 # UrbanCLIP
 Learning Text-Enhanced Urban Region Profiling from the Web
 
-This repository is under development for better usage. The dataset will be released until paper notification, and is under refinement.
+This repository is under development for better usage. The dataset will be released until paper notification, and is under refinement (Part of current data could be pseudo-data for test only).
 
 Stay tuned for more updates! 
 
