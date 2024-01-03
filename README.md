@@ -26,6 +26,7 @@ data/
 ```
 
 ## Data Example
+Garbage in, garbage out! Please spend more time on data double-checking, cleaning, and refinement!
 ```markdown
 {
       "caption": "The image depicts a large, open field with a train track running through the middle of it",
