@@ -1,7 +1,7 @@
-# UrbanCLIP
-Learning Text-Enhanced Urban Region Profiling from the Web
+# UrbanCLIP: Learning Text-enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web [WWW 2024]
+This repo is the implementation of our manuscript entitled [UrbanCLIP: Learning Text-enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web](https://arxiv.org/abs/2310.18340) (Accepted by the Web Conference 2024). 
 
-This repository is under development for better usage. The dataset will be released until paper notification, and is under refinement (Part of current data could be pseudo-data for test only).
+This repository is under development for better usage. The dataset is under refinement (Part of current data could be pseudo-data for test only).
 
 Stay tuned for more updates! 
 
