@@ -28,7 +28,7 @@ Note:
     Pre-training is very demanding in terms of data volume and not affordable for a typical lab
 """
 
-
+# adjust the hyperparameters based on your customized dataset.
 def create_args():
     parser = argparse.ArgumentParser()
     parser.add_argument(
