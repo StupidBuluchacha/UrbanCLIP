@@ -6,7 +6,8 @@ from vit_pytorch.simple_vit_with_patch_dropout import SimpleViT
 from vit_pytorch.extractor import Extractor
 from model_init import UrbanCLIP_init
 
-# there could be more options to initialize the parameters! The following checkpoint is one of them.
+# There could be more options to initialize the parameters! The following checkpoint is one of them.
+# Our design is based on CLIP. So CLIP variants are also within our scope. Welcome any commit for UrbanCLIP!
 model, _, transform = open_clip.create_model_and_transforms(
   model_name="coca_ViT-L-14",
   # pretrained="mscoco_finetuned_laion2B-s13B-b90k"
