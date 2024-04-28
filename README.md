@@ -5,8 +5,9 @@ This repository will be kept under development for better usage. The dataset is 
 
 Stay tuned for more updates! 
 
-【NEWS！】Our team extended our work to a more comprehensive scope. More details can be found in the paper entitled [UrbanVLP: A Multi-Granularity Vision-Language Pre-Trained Foundation Model for Urban Indicator Prediction](https://arxiv.org/abs/2403.16831), where we will release the dataset and code base soon.
-【NEWS！】Our team investigated the [Deep Learning for Cross-Domain Data Fusion in Urban Computing: Taxonomy, Advances, and Outlook](https://arxiv.org/abs/2402.19348). Welcome any feedback!
+**【NEWS！】** Our team extended our work to a more comprehensive scope. More details can be found in the paper entitled [UrbanVLP: A Multi-Granularity Vision-Language Pre-Trained Foundation Model for Urban Indicator Prediction](https://arxiv.org/abs/2403.16831), where we will release the dataset and code base soon.
+
+**【NEWS！】** Our team investigated the [Deep Learning for Cross-Domain Data Fusion in Urban Computing: Taxonomy, Advances, and Outlook](https://arxiv.org/abs/2402.19348). Welcome any feedback!
 
 ## Data Directory
 ```markdown
